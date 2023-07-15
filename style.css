@@ -1,0 +1,61 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    /* outline: 0px;
+    box-sizing: border-box; */
+}
+
+/* background for the first parallax */
+
+.parallax-1{
+    background-image: url(images/parallax1-bgc.jpg);
+    width: 100%;
+    height: 600px;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+/* styling the first parallax heading */
+.parallax-1 h2{
+    margin: auto;
+    position: relative;
+    height: 35px;
+    width: 250px;
+    background-color: rgb(16, 150, 105);
+    color: rgb(197, 255, 138);
+    left: 1px;
+    top: 250px;
+    text-align: center;
+}
+
+/* styling the paragraph of first parllax */
+.para-1 p{
+    background-color: black;
+    color: #ffffff;
+}
+
+/* styling the parallax-2 */
+.parallax-2{
+    background-image: url(images/parallax2-bgc.jpeg);
+    width: 100%;
+    height: 600px;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+/* styling for heading in parallax-2 */
+.parallax-2 h2{
+    margin: auto;
+    position: relative;
+    height: 35px;
+    width: 250px;
+    background-color: rgb(119, 150, 16);
+    color: rgb(197, 255, 138);
+    left: 1px;
+    top: 250px;
+    text-align: center;
+}
+/* styling for paragraph in parallax-2 */
+.para-2 p{
+    background-color: black;
+    color: #ffffff;
+}
